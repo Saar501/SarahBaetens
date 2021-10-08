@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Loopbaan-tot-nu</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+<body>
+    <h3><strong>Loopbaan tot nu</strong></h3>
+    <h5> Overzicht</h5>
+    <ol>
+      <li>VUTG - dienst Operationeel beheer: 15/10/2019 - </li>
+      <li>Fons - Procesbeheer: 01/01/2019 - 14/10/2019</li>
+      <li>Famifed - Projecten en processen - 01/06/2016-31/12/2018</li>
+      <li>Famifed - dossierbeheerder - 01/07/2014-31/05/2016</li>
+      <li>RKW-ONAFTS - dossierbeheerder - 01/09/2009-30/06/2014</li>
+      <li>Verkoper Proximus-Belgacom - 05/01/2009-25/08/2009</li>
+      <li>Aspirant-verkoopster - Vanden Borre - 11/02/2008 - 25/12/2008</li>
+      <li>Zoomart - Kassierster(vervangcontract) - 15/11/2007-15-12-2007</li>
+    </ol>
+
+      <a href='wie-ben-ik.html'>homepagina</a>
+
+      <header class='contacteren'>
+    		<h1>Contacteer mij</h1>
+    		<p><em>Ik betwijfel of je NOG meer wil weten maar contacteer mij gerust.</em></p>
+    	</header>
+    	<form action='' class='contacteren' method='get'>
+    		<div class='form-row'>
+    			<label for='full-name'>Naam</label>
+    			<input id='full-name' name='full-name' type='text'>
+    			</div>
+        <div class='form-row'>
+    			<label for='email'>Email</label>
+    			<input id='email' name='email' type='email' placeholder='joe@example.com' />
+    		</div>
+    		<fieldset class='legacy-form-row'>
+      		<legend>Onderwerp</legend>
+      		<input id='talk-type-1'
+             name='talk-type'
+             type='radio'
+             value='main-stage' />
+      		<label for='talk-type-1' class='radio-label'>koetjes en kalfjes</label>
+      	 	<input id='talk-type-2'
+             name='talk-type'
+             type='radio'
+             value='workshop'
+             checked />
+      		<label for='talk-type-2' class='radio-label'>andere</label>
+    </fieldset>
+    	<div class='form-row'>
+      	<label for='andere'>Indien andere, maak een keuze:</label>
+      	<select id='andere' name='andere'>
+        	<option value='1'>iets anders</option>
+        	<option value='2'>nog iets anders</option>
+        	<option value='3'>helemaal iets anders</option>
+        	<option value='4'>eigenlijk niets</option>
+      </select>
+    </div>
+    	<div class='form-row'>
+      	<label for='verduidelijken'>Verduidelijking</label>
+      	<textarea id='verduidelijken' name='abstract'></textarea>
+      	<div class='instructions'>Describe your talk in 500 words or less</div>
+    </div>
+    <div class='form-row'>
+      <label class='checkbox-label' for='available'>
+      <input id='available'
+             name='available'
+             type='checkbox'
+             value='is-available'/>
+      <span>Ik ben niet beschikbaar op zaterdag en zondag</span>
+      </label>
+    </div>
+    <div class='form-row'>
+      <button>Submit</button>
+    </div>
+
+    	</form>
+  </body>
+</html>

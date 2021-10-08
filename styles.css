@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #414141;
+  background-color: #EEEEEE;
+  font-size: 18px
+}
+h3 {
+  font-size: 2em;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+h4 {
+  font-size: 1.6em;
+}
+h3, h4 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+ul {
+  list-style-type: circle;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+p {
+  text-align: left;
+padding: 20px 0 20px 10px;
+margin-top: 25px
+margin-bottom: 50px
+
+}
+em, strong {
+  display: inline;
+}
+
+.zingen {
+  color: #7E8184;        /* Light gray */
+  font-style: italic;
+  background-color: #5995DA;
+}
+
+.games {
+  font-style: italic;
+  background-color: #F5CF8E;    /* Yellow */
+}
+
+.engagementen {
+  font-style: italic;
+  background-color: #EEB75A;    /* Yellow */
+}
+
+p:last-of-type {
+  margin-bottom: 20px;
+}
+
+.voorstelling {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+}
+
+.contacteren {
+	text-align: center;
+	background-color: #F6F7F8;
+	border: 1px solid #D6D9DC;
+	border-radius: 3px;
+	width: 80%;
+	margin: 40px 0;
+	padding: 50px;
+}
+.contacteren h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.contacteren {
+	background-color: #F6F7F8;
+	border: 1px solid #D6D9DC;
+	border-radius: 3px;
+	width: 80%;
+	padding: 50px;
+	margin: 0 0 40px 0;
+}
+.form-row {
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.form-row input[type='text'],
+.form-row input[type='email'] {
+	background-color: #FFFFFF;
+	border: 1px solid #D6D9DC;
+	border-radius: 3px;
+	width: 100%;
+	padding: 7px;
+	font-size: 14px;
+}
+.form-row label {
+	margin-bottom: 15px;
+}
+
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: none;
+}
+
+.form-row .instructions {
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #FFFFFF;
+  background-color: #5995DA;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
